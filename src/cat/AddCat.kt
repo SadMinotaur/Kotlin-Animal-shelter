@@ -23,7 +23,7 @@ class AddCat : RComponent<RProps, AddCat.AddCatState>() {
     }
 
     override fun RBuilder.render() {
-        table {
+        table(classes = "centerTable") {
             tbody {
                 tr {
                     td {
@@ -69,7 +69,7 @@ class AddCat : RComponent<RProps, AddCat.AddCatState>() {
                 }
             }
         }
-        div {
+        div("catAddTable") {
             +"Image:"
             input {
                 attrs.type = InputType.file
@@ -84,7 +84,7 @@ class AddCat : RComponent<RProps, AddCat.AddCatState>() {
                 }
             }
         }
-        div {
+        div("catAddTable") {
             attrs.onClickFunction = {
                 cats.add(
                         Cat(
@@ -97,10 +97,12 @@ class AddCat : RComponent<RProps, AddCat.AddCatState>() {
             }
             navLink("/cats") { +"Send cat" }
         }
-        div {
+        div("catAddTable") {
             +"Loaded cat: "
         }
-        img(src = state.image as? String) {}
+        div("catAddTable") {
+            img(classes = "photo ", src = state.image as? String) {}
+        }
     }
 
     interface AddCatState : RState {

@@ -40,16 +40,14 @@ class CatPage : RComponent<RouteResultProps<CatPage.CatProps>, RState>() {
                     +"Gender: ${cat.gender}"
                 }
                 img(src = cat.image as? String, classes = "Cat") {}
-            }
-        footer(classes = "Header") {
-            div {
-                navLink("/cats") {
-                    +"Remove cat"
+                div {
+                    navLink("/cats") {
+                        +"Remove cat"
+                    }
+                    attrs.onClickFunction = {
+                        cats.remove(cat)
+                    }
                 }
-                attrs.onClickFunction = {
-                    cats.remove(cat)
-                }
             }
-        }
     }
 }

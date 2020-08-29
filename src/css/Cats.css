@@ -1,5 +1,5 @@
 .Cat {
-    block-size: 5cm;
+    block-size: 15cm;
 }
 
 .Cat-table {
@@ -10,7 +10,17 @@
 }
 
 .Cat-info {
-    background-color: bisque;
+    color: white;
     padding: 1cm;
     text-align: center;
+}
+
+.catAddTable{
+    text-align: center;
+    width: 100%;
+}
+
+.photo{
+    block-size: 15cm;
+    padding: 20px;
 }

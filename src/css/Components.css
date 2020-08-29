@@ -1,0 +1,33 @@
+.header {
+
+}
+
+.home {
+    padding: 30px;
+    color: white;
+}
+
+.baseColor {
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+body {
+    background-color: coral;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    color: white;
+}
+
+a {
+    color: white;
+    size: auto;
+}

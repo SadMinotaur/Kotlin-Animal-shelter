@@ -11,6 +11,7 @@ import react.router.dom.switch
 
 fun RBuilder.mainComponent() {
     div("div") {
+        headerComponent()
         switch() {
             route(
                     exact = true,

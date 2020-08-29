@@ -9,7 +9,6 @@ fun main() {
     requireAll(require.context("src", true, js("/\\.css$/")))
     render(document.getElementById("root")) {
         browserRouter() {
-            headerComponent()
             mainComponent()
         }
     }

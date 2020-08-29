@@ -1,12 +1,3 @@
-.baseColor {
-    background-color: #e6ff9c;
-    padding: 15px;
-}
-
-.header {
-
-}
-
 .centerTable {
     margin-left: auto;
     margin-right: auto;
@@ -27,19 +18,9 @@
     border-radius: 10px;
 }
 
-.div{
-    background-color: coral;
-    height: 100%;
-    width: 100%;
-}
-
 .footer {
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     position: fixed;
     text-align: center;
-}
-
-body{
-    margin: 0;
 }
