@@ -1,0 +1,45 @@
+.baseColor {
+    background-color: #e6ff9c;
+    padding: 15px;
+}
+
+.header {
+
+}
+
+.centerTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableItem {
+    text-align: center;
+    padding: 15px;
+    width: 100px;
+}
+
+.buttonFooter {
+    background-color: antiquewhite;
+    height: 70px;
+    width: 150px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.div{
+    background-color: coral;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}

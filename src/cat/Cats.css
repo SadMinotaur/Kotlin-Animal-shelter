@@ -1,0 +1,16 @@
+.Cat {
+    block-size: 5cm;
+}
+
+.Cat-table {
+    width: 100%;
+    background-color: coral;
+    text-align: center;
+    overflow: auto;
+}
+
+.Cat-info {
+    background-color: bisque;
+    padding: 1cm;
+    text-align: center;
+}

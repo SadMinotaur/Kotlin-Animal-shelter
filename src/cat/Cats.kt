@@ -1,11 +1,10 @@
 package cat
 
+import app.catFooter
 import app.cats
 import org.w3c.dom.events.Event
 import react.*
-import react.dom.table
-import react.dom.tbody
-import react.dom.td
+import react.dom.*
 import react.dom.tr
 
 class Cats : RComponent<CatPage.CatProps, Cats.CatsState>() {
@@ -26,23 +25,9 @@ class Cats : RComponent<CatPage.CatProps, Cats.CatsState>() {
 
     override fun RBuilder.render() {
         table(classes = "Cat-table") {
-            tbody {
-                var i = 0
-                while (i < state.cats.size) {
-                    tr {
-                        if (i < state.cats.size)
-                            td {
-                                catItem(state.cats[i++])
-                            }
-                        if (i < state.cats.size)
-                            td {
-                                catItem(state.cats[i++])
-                            }
-                        if (i < state.cats.size)
-                            td {
-                                catItem(state.cats[i++])
-                            }
-                    }
+            for (i in state.cats) {
+                tr {
+                    catItem(i)
                 }
             }
         }

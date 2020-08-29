@@ -10,8 +10,8 @@ import react.router.dom.route
 import react.router.dom.switch
 
 fun RBuilder.mainComponent() {
-    div {
-        switch {
+    div("div") {
+        switch() {
             route(
                     exact = true,
                     path = "/",
