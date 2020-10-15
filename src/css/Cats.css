@@ -1,12 +1,16 @@
 .Cat {
-    block-size: 15cm;
+    block-size: 10cm;
+    border-radius: 10px;
 }
 
 .Cat-table {
+    padding-top: 10px;
     width: 100%;
     background-color: coral;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    overflow: auto;
 }
 
 .Cat-info {
@@ -15,12 +19,12 @@
     text-align: center;
 }
 
-.catAddTable{
+.catAddTable {
     text-align: center;
     width: 100%;
 }
 
-.photo{
-    block-size: 15cm;
+.photo {
+    block-size: 10cm;
     padding: 20px;
 }

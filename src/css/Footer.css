@@ -10,12 +10,14 @@
 }
 
 .buttonFooter {
-    background-color: antiquewhite;
+    background-color: white;
     height: 70px;
     width: 150px;
     margin: 5px;
+    border: 0;
     text-align: center;
     border-radius: 10px;
+    color: #062749;
 }
 
 .footer {

@@ -18,7 +18,7 @@ class CatItem : RComponent<CatItem.CatProps, CatItem.CatState>() {
         var name: String
         var age: String
         var breed: String
-        var gender:String
+        var gender: String
         var image: dynamic
     }
 

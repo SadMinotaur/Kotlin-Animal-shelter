@@ -1,6 +1,6 @@
 package cat
 
-enum class Gender{
+enum class Gender {
     Female,
     Male
 }
